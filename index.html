@@ -398,7 +398,7 @@ footer{background:rgba(18,4,10,.9)}
         <p class="tag rv" style="--d:.16s">Dra. Jordana Ribeiro</p>
         <p class="sub rv" style="--d:.24s">Lentes de porcelana, implantes, prótese protocolo, ortodontia e atendimento infantil, com planejamento personalizado para cada paciente.</p>
         <div class="cta rv" style="--d:.32s">
-          <a class="btn btn-gold" data-wa="Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston."><svg><use href="#i-wa"/></svg>Agendar avaliação</a>
+          <a class="btn btn-gold" data-wa="*Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston.*"><svg><use href="#i-wa"/></svg>Agendar avaliação</a>
           <a class="btn btn-ghost" href="#transformacoes">Ver transformações</a>
         </div>
       </div>
@@ -488,7 +488,7 @@ footer{background:rgba(18,4,10,.9)}
   <div class="wrap">
     <div class="script rv">Seu sorriso em boas mãos</div>
     <p class="rv" style="--d:.1s">Agende sua avaliação e descubra o melhor caminho para o seu sorriso.</p>
-    <a class="btn btn-gold rv" style="--d:.2s" data-wa="Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston."><svg><use href="#i-wa"/></svg>Agendar avaliação</a>
+    <a class="btn btn-gold rv" style="--d:.2s" data-wa="*Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston.*"><svg><use href="#i-wa"/></svg>Agendar avaliação</a>
   </div>
 </section>
 
@@ -498,7 +498,7 @@ footer{background:rgba(18,4,10,.9)}
     <h2 class="rv" style="--d:.06s">Agende sua <em>avaliação</em></h2>
     <div class="c-grid">
       <div class="c-list">
-        <a class="c-item rv" data-wa="Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston." aria-label="Chamar no WhatsApp"><span class="ci"><svg><use href="#i-wa"/></svg></span><div><b>WhatsApp</b><span>(11) 99622-8315</span><br><small>Toque para conversar</small></div></a>
+        <a class="c-item rv" data-wa="*Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston.*" aria-label="Chamar no WhatsApp"><span class="ci"><svg><use href="#i-wa"/></svg></span><div><b>WhatsApp</b><span>(11) 99622-8315</span><br><small>Toque para conversar</small></div></a>
         <a class="c-item rv" style="--d:.06s" href="https://www.instagram.com/drajordanaribeiro/" target="_blank" rel="noopener" aria-label="Abrir o Instagram"><span class="ci"><svg><use href="#i-ig"/></svg></span><div><b>Instagram</b><span>@drajordanaribeiro</span><br><small>Toque para abrir o perfil</small></div></a>
         <a class="c-item rv" style="--d:.12s" href="https://share.google/l2PPalvTfvyi2A151" target="_blank" rel="noopener" aria-label="Ver a localização no mapa"><span class="ci"><svg><use href="#i-pin"/></svg></span><div><b>Localização</b><span>Carapicuíba – SP</span><br><small>Toque para ver no mapa</small></div></a>
         <div class="c-item rv" style="--d:.18s"><span class="ci"><svg><use href="#i-clock"/></svg></span><div><b>Horários</b><span>Consulte pelo WhatsApp</span><br><small>Domingo: fechado</small></div></div>
@@ -506,7 +506,7 @@ footer{background:rgba(18,4,10,.9)}
       <div class="card-wa rv" style="--d:.1s">
         <h3>Vamos conversar?</h3>
         <p>Conte o que você procura e nossa equipe responde pelo WhatsApp com os próximos passos.</p>
-        <a class="btn btn-gold" data-wa="Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston."><svg><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
+        <a class="btn btn-gold" data-wa="*Olá! Vim pelo site e gostaria de agendar uma avaliação na Sorria Ariston.*"><svg><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
         <a class="btn btn-line" href="https://www.instagram.com/drajordanaribeiro/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>Ver o Instagram</a>
         <a class="btn btn-line" href="https://share.google/l2PPalvTfvyi2A151" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Como chegar</a>
       </div>
@@ -566,7 +566,7 @@ function wa(m){return "https://wa.me/"+PHONE+"?text="+encodeURIComponent(m)}
 
 /* Links de WhatsApp (data-wa = mensagem opcional) */
 document.querySelectorAll("[data-wa]").forEach(function(a){
-  a.href=wa(a.getAttribute("data-wa")||"Olá! Vim pelo site e gostaria de agendar uma avaliação na "+NOME+".");
+  a.href=wa(a.getAttribute("data-wa")||"*Olá! Vim pelo site e gostaria de agendar uma avaliação na "+NOME+".*");
   a.target="_blank"; a.rel="noopener";
 });
 
